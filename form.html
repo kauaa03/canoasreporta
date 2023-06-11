@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CanoasReporta</title>
+</head>
+<body>
+    <section>
+        <h2>CanoasReporta</h2>
+        <form action="https://api.staticforms.xyz/submit" method="post">
+            <label>Nome</label>
+            <input type="text" name="nome" id="nome" placeholder="Informe seu nome" autocomplete="off" required>
+            <label>Problema</label>
+            <input type="text" name="problema" id="problema" placeholder="Informe o problema" autocomplete="on" required>
+            <label>Descrição do problema</label>
+            <textarea name="descricao" cols="30" rows="4" placeholder="Descreva o problema" id="descricao" autocomplete="off"></textarea required>       
+            <label>Local</label>
+            <input type="text" name="local" id="local" placeholder="Informe o local" id="local" autocomplete="on" required>     
+            <button type="submit" id="botao">Reportar</button>
+            <input type="hidden" name="accessKey" value="c0298e16-2c9f-467a-9e3b-4b68a7e99cca">
+            <input type="hidden" name="redirectTo" value="file:///C:/Users/Pichau/Documents/Esc/ReportP2/obrigado.html">
+        </form>
+    </section>
+</body>
+</html>
